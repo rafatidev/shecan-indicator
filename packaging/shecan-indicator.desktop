@@ -1,0 +1,14 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=Shecan Indicator
+Name[fa]=ایندیکاتور شکن
+Comment=Monitor Shecan DNS connection status
+Comment[fa]=نمایش وضعیت اتصال به سرور شکن
+Exec=shecan-indicator
+Icon=shecan-connected
+Terminal=false
+Categories=Network;Monitor;
+StartupNotify=false
+X-GNOME-Autostart-enabled=true
+X-GNOME-UsesNotifications=true

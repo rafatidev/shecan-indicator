@@ -1,0 +1,10 @@
+{
+  "uuid": "shecan-indicator@rafatidev",
+  "name": "Shecan Indicator",
+  "description": "Shows Shecan DNS connection status in the top panel. Optionally update your authorized IP via Shecan DDNS and open the Shecan panel.\n\nDisplays a green/red indicator based on https://check.shecan.ir/ and supports Persian and English UI.",
+  "shell-version": ["45", "46", "47", "48"],
+  "url": "https://github.com/rafatidev/shecan-indicator",
+  "settings-schema": "org.gnome.shell.extensions.shecan-indicator",
+  "gettext-domain": "shecan-indicator",
+  "version": 1
+}

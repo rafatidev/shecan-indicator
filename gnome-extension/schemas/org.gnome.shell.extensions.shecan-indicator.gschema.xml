@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist gettext-domain="shecan-indicator">
+  <schema id="org.gnome.shell.extensions.shecan-indicator" path="/org/gnome/shell/extensions/shecan-indicator/">
+    <key name="language" type="s">
+      <default>'fa'</default>
+      <summary>UI language</summary>
+      <description>fa or en</description>
+    </key>
+    <key name="poll-interval-sec" type="i">
+      <default>10</default>
+      <summary>Check interval in seconds</summary>
+      <range min="3" max="3600"/>
+    </key>
+    <key name="show-label" type="b">
+      <default>false</default>
+      <summary>Show text next to icon</summary>
+    </key>
+    <key name="label-connected" type="s">
+      <default>'متصل'</default>
+      <summary>Connected label</summary>
+    </key>
+    <key name="label-disconnected" type="s">
+      <default>'قطع'</default>
+      <summary>Disconnected label</summary>
+    </key>
+    <key name="label-unknown" type="s">
+      <default>'…'</default>
+      <summary>Checking label</summary>
+    </key>
+    <key name="notify-on-change" type="b">
+      <default>true</default>
+      <summary>Notify on status change</summary>
+    </key>
+    <key name="ddns-update-url" type="s">
+      <default>''</default>
+      <summary>Personal Shecan DDNS update URL</summary>
+    </key>
+  </schema>
+</schemalist>
