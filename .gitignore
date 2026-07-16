@@ -12,3 +12,6 @@ venv/
 .idea/
 .vscode/
 *.tmp
+
+# GNOME 45+: do not ship compiled schemas (EGO-P-006)
+gnome-extension/schemas/gschemas.compiled
